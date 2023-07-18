@@ -1,0 +1,26 @@
+@media screen and (max-width:425px) {
+    .nav-main, .nav-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .res1, .res2{
+       margin: 0px;
+    }
+    .res1{
+        margin-top: 30px;
+    }
+    .res2{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:768px ) {
+    .nav-main{
+        flex-direction: column;
+    }
+    .nav-list ,.nav-logo{
+        width: 100%;
+        justify-content:center ;
+    }
+}

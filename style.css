@@ -14,10 +14,16 @@
 
 
 /* nav section */
-
+.nav-container{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
 .nav-main {
     max-width: 1400px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
 }
 
 .nav-list {
@@ -32,11 +38,6 @@
     align-items: center;
     gap: 15px;
     width: 50%;
-}
-
-.nav-main {
-    display: flex;
-    align-items: center;
 }
 
 .gamer {
@@ -72,6 +73,9 @@
     font-size: 28px;
     color: red;
 }
-.you1{
+
+.you1 {
     font-size: 28px;
 }
+
+/* banner secton */
