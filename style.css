@@ -101,13 +101,16 @@
     margin-top: 10px;
 
 }
-  .iconb{
-    padding:0px 5px;
-    font-size: 15px ;
-  }
-  .banner-list-container{
-       margin-top: 20px;
-  }
+
+.iconb {
+    padding: 0px 5px;
+    font-size: 15px;
+}
+
+.banner-list-container {
+    margin-top: 20px;
+}
+
 .banner-list {
     color: #534C64;
     font-size: 18px;
@@ -140,21 +143,104 @@
     margin-left: 25px;
 }
 
-.banner-div-main{
+.banner-div-main {
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
 }
-.banner-left{
+
+.banner-left {
     width: 50%;
     justify-content: flex-start;
 }
-.banner-right{
+
+.banner-right {
     justify-content: flex-end;
     width: 50%;
 }
 
-.banner-btn{
+.banner-btn {
     margin-top: 35px;
+}
+
+.banner-main {
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+
+/* we are gamer section */
+
+
+.we-gamer-main{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    min-height: 550px;
+}
+.we-gamer-container {
+    max-width: 1400px;
+    min-height: 550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.we-gamer-title {
+    font-size: 46px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+.we-gamer-para {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top:20px;
+    margin-bottom: 35px;
+}
+
+.we-bnt {
+
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}
+
+.para2 {
+    color: #534C64;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 25px;
+}
+
+.span-gamer{
+    color: #534C64;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.we-gamer-right{
+    width: 50%;
+    margin-right: 20px;
+    
+}
+.gamer-pic{
+    width: 100%;
+}
+.we-gamer-left{
+   width: 50%;
+text-align: right;
 }

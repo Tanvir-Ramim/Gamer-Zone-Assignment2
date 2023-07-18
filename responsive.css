@@ -1,4 +1,8 @@
 @media screen and (max-width:425px) {
+    *{
+        max-width: 400px;
+        margin: 10px auto;
+    }
     .nav-main, .nav-list{
         flex-direction: column;
         align-items: center;
@@ -12,9 +16,73 @@
     .res2{
         margin-bottom: 30px;
     }
+    .nav-container {
+        box-shadow: none;
+    }
+   /* goat ar jonno */
+   .banner-div-main{
+     flex-direction: column-reverse;
+   }
+   .banner-left{
+    width: 100%;
+    background-image: url("./images/Group\ 14.png");
+    
+    background-repeat: no-repeat;
+   }
+   .banner-main{
+     background-image: none;
+     
+   }
+   /* 50-10000000000000 */
+   .banner-right,.banner-right-pic,.we-gamer-right,.we-gamer-left
+   {
+    width: 100%;
+   }
+
+
+   .banner-h{
+    font-size: 38px;
+   }
+   .banner-goat{
+    font-size: 80px;
+    margin: 0;
+   }
+   .banner-list ,.banner-btn,.banner-list-container
+
+   {
+    margin: 0px;
+   }
+   .go-btn{
+    padding: 16px 35px;
+    border-radius: 48px;
+    font-size: 15px;
+    border: none;
+   }
+
+   .sing-btn {
+    padding: 16px 35px;
+    font-size: 15px;
+}
+
+/* we */
+.we-gamer-container{
+    flex-direction: column;
+}
+
+.we-gamer-left{
+    text-align: center;
+}
+
+.we-gamer-main{
+    background: none;
+}
+
+
 
 }
 
+
+/* for tab */
 @media screen and (min-width:425px) and (max-width:768px ) {
     .nav-main{
         flex-direction: column;
@@ -23,4 +91,42 @@
         width: 100%;
         justify-content:center ;
     }
+    .nav-container {
+        background: #FFF;
+        box-shadow: none;
+    }
+    .banner-div-main{
+        flex-direction: column-reverse;
+      }
+      .banner-main{
+        background-image: none;
+        
+      }
+      .banner-right{
+        width: 100%;
+        margin-top: 20px;
+       }
+       .banner-right-pic{
+        width: 100%;
+       }
+
+       .banner-left{
+        width: 100%;
+        background-image: url("./images/Group\ 14.png");
+        background-size: cover;
+        margin-top: 20px;
+        padding-left: 20px;
+
+       }
+
+       /* we  */
+
+       .we-gamer-main{
+        margin-top: 30px;
+       }
+       .we-gamer-main{
+        background: none;
+        width: 730px;
+    }
+
 }
