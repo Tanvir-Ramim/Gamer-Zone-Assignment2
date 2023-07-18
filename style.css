@@ -14,16 +14,17 @@
 
 
 /* nav section */
-.nav-container{
+.nav-container {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+
 .nav-main {
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    
+
 }
 
 .nav-list {
@@ -79,3 +80,81 @@
 }
 
 /* banner secton */
+
+.banner-h {
+    color: #0B0223;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.banner-goat {
+    font-size: 92px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+    margin-top: 10px;
+
+}
+  .iconb{
+    padding:0px 5px;
+    font-size: 15px ;
+  }
+  .banner-list-container{
+       margin-top: 20px;
+  }
+.banner-list {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.sing-btn {
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}
+
+.go-btn {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 25px;
+}
+
+.banner-div-main{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner-left{
+    width: 50%;
+    justify-content: flex-start;
+}
+.banner-right{
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.banner-btn{
+    margin-top: 35px;
+}
