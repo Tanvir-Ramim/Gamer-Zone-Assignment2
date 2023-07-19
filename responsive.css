@@ -44,7 +44,6 @@
      background-image: none;
      
    }
-   /* 50-10000000000000 */
    .banner-right,.banner-right-pic,.we-gamer-right,.we-gamer-left
    {
     width: 100%;
@@ -103,7 +102,40 @@
     .online-card-container{
            flex-direction: column;
     }
-      
+    
+    /* play section */
+    .play-section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .play-pic{
+        width: 88%;
+        
+    }
+    .play-pic-s{
+        width: 42%;
+    }
+    .play-img-small{
+        top:60%;
+        left:-3%;
+    }
+
+     .play-title, .play-2 {
+        font-size: 30px;
+    }
+
+    .play-content{
+
+        text-align: center;
+        padding-right: 0px;
+    }
+    .play-para{
+       font-size: 15px;
+       text-align: center;
+    }
+    .play-content{
+        text-align: center;
+    }
 }
 
 
@@ -163,5 +195,27 @@
  .online-tile{
     padding-bottom: 15px;
     margin-top: 50px;
+ }
+ /* play section */
+ .play-section{
+    margin-top: 50px;
+    flex-direction: column;
+}
+.play-content{
+
+    text-align: center;
+   padding-left: 160px;
+}
+.play-img{
+
+    justify-content: center;
+}
+
+.play-para {
+    text-align: center;
+    font-size: 18px;
+}
+ .play-content{
+     margin-bottom:40px;
  }
 }
