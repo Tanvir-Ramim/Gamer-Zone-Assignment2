@@ -37,9 +37,14 @@
    .banner-left{
     width: 100%;
     background-image: url("./images/Group\ 14.png");
+    background-position: center;
+    background-size: cover;
     
-    background-repeat: no-repeat;
    }
+   .banner-list-container , .banner-btn,.banner-h,.banner-goat{
+      padding-left: 40px;
+   }
+
    .banner-main{
      background-image: none;
      
@@ -147,6 +152,34 @@
         width: 150px;
         gap: 3px;
     } 
+    /* footer  */
+
+    .footer-all-icon {
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    }
+
+    .footer-2nd{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .footer-p {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    .f-twitter {
+        font-size: 35px;
+    }
+
+    .footer-logo{
+        margin-left: 90px;
+    } 
 }
 
 
@@ -243,5 +276,24 @@
  }
  .circle-section {
     background: none;
+}
+
+/* footer section */
+.footer-2nd {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.footer-logo{
+    margin-left: 0px;
+} 
+.footer-p {
+    gap:20px;
+}
+.f-twitter {
+    font-size: 40px;
+}
+.footer-section {
+    margin-top: 60px;
 }
 }
