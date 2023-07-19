@@ -6,7 +6,14 @@
     .nav-main, .nav-list{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
+
+    .you ,.you1  {
+        font-size: 24px;
+    }
+
+    
     .res1, .res2{
        margin: 0px;
     }
@@ -15,6 +22,10 @@
     }
     .res2{
         margin-bottom: 30px;
+    }
+    .nav-follow{
+        width:200px ;
+        gap: 2px;
     }
     .nav-container {
         box-shadow: none;
@@ -77,13 +88,27 @@
     background: none;
 }
 
+  /*online section  */
+    .online-tile ,.online-title2{
+        font-size: 29px;
+    }
 
-
+    .online-p{
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .online-card-para{
+        font-size: 15px;
+    }
+    .online-card-container{
+           flex-direction: column;
+    }
+      
 }
 
 
 /* for tab */
-@media screen and (min-width:425px) and (max-width:768px ) {
+@media screen and (min-width:426px) and (max-width:768px ) {
     .nav-main{
         flex-direction: column;
     }
@@ -129,4 +154,14 @@
         width: 730px;
     }
 
+    /* online game section */
+    .online-card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 20px;
+ }
+ .online-tile{
+    padding-bottom: 15px;
+    margin-top: 50px;
+ }
 }

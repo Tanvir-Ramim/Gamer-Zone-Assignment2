@@ -70,7 +70,7 @@
     height: 56px;
 }
 
-.you {
+.you  {
     font-size: 28px;
     color: red;
 }
@@ -286,9 +286,6 @@
     width: 100%;
 }
 
-/* .online-card-pic:hover{
-
-} */
 .online-card-para {
     color: #534C64;
     font-size: 20px;
