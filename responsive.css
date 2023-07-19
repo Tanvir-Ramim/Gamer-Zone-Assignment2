@@ -136,6 +136,17 @@
     .play-content{
         text-align: center;
     }
+
+    /* circle */
+    .circle-section {
+        background: none;
+    }
+    .circles {
+
+        font-size: 12px;
+        width: 150px;
+        gap: 3px;
+    } 
 }
 
 
@@ -152,6 +163,18 @@
         background: #FFF;
         box-shadow: none;
     }
+    /* banner */
+    .banner-btn{
+        margin-bottom: 20px;
+    }
+    .sing-btn {
+        padding: 19px 37px;
+    }
+    
+    .go-btn {
+        padding: 19px 37px;
+    }
+
     .banner-div-main{
         flex-direction: column-reverse;
       }
@@ -218,4 +241,7 @@
  .play-content{
      margin-bottom:40px;
  }
+ .circle-section {
+    background: none;
+}
 }
