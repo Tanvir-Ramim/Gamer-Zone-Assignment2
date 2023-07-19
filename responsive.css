@@ -1,144 +1,176 @@
 @media screen and (max-width:425px) {
-    *{
+    * {
         max-width: 400px;
         margin: 10px auto;
     }
-    .nav-main, .nav-list{
+
+    .nav-main,
+    .nav-list {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .you ,.you1  {
+    .you,
+    .you1 {
         font-size: 24px;
     }
 
-    
-    .res1, .res2{
-       margin: 0px;
+
+    .res1,
+    .res2 {
+        margin: 0px;
     }
-    .res1{
+
+    .res1 {
         margin-top: 30px;
     }
-    .res2{
+
+    .res2 {
         margin-bottom: 30px;
     }
-    .nav-follow{
-        width:200px ;
+
+    .nav-follow {
+        width: 200px;
         gap: 2px;
     }
+
     .nav-container {
         box-shadow: none;
     }
-   /* goat ar jonno */
-   .banner-div-main{
-     flex-direction: column-reverse;
-   }
-   .banner-left{
-    width: 100%;
-    background-image: url("./images/Group\ 14.png");
-    background-position: center;
-    background-size: cover;
-    
-   }
-   .banner-list-container , .banner-btn,.banner-h,.banner-goat{
-      padding-left: 40px;
-   }
 
-   .banner-main{
-     background-image: none;
-     
-   }
-   .banner-right,.banner-right-pic,.we-gamer-right,.we-gamer-left
-   {
-    width: 100%;
-   }
+    /* goat ar jonno */
+    .banner-div-main {
+        flex-direction: column-reverse;
+    }
 
+    .banner-left {
+        width: 100%;
+        background-image: url("./images/Group\ 14.png");
+        background-position: center;
+        background-size: cover;
 
-   .banner-h{
-    font-size: 38px;
-   }
-   .banner-goat{
-    font-size: 80px;
-    margin: 0;
-   }
-   .banner-list ,.banner-btn,.banner-list-container
+    }
 
-   {
-    margin: 0px;
-   }
-   .go-btn{
-    padding: 16px 35px;
-    border-radius: 48px;
-    font-size: 15px;
-    border: none;
-   }
+    .banner-list-container,
+    .banner-btn,
+    .banner-h,
+    .banner-goat {
+        padding-left: 40px;
+    }
 
-   .sing-btn {
-    padding: 16px 35px;
-    font-size: 15px;
-}
+    .banner-main {
+        background-image: none;
 
-/* we */
-.we-gamer-container{
-    flex-direction: column;
-}
+    }
 
-.we-gamer-left{
-    text-align: center;
-}
+    .banner-right,
+    .banner-right-pic,
+    .we-gamer-right,
+    .we-gamer-left {
+        width: 100%;
+    }
 
-.we-gamer-main{
-    background: none;
-}
+    .banner-h {
+        font-size: 38px;
+    }
 
-  /*online section  */
-    .online-tile ,.online-title2{
+    .banner-goat {
+        font-size: 80px;
+        margin: 0;
+    }
+
+    .banner-list,
+    .banner-btn,
+    .banner-list-container {
+        margin: 0px;
+    }
+
+    .go-btn {
+        padding: 16px 35px;
+        border-radius: 48px;
+        font-size: 15px;
+        border: none;
+    }
+
+    .sing-btn {
+        padding: 16px 35px;
+        font-size: 15px;
+    }
+
+    /* we */
+    .we-gamer-container {
+        flex-direction: column;
+    }
+
+    .we-gamer-left {
+        text-align: center;
+    }
+
+    .we-gamer-main {
+        background: none;
+    }
+
+    /*online section  */
+    .online-tile {
+        margin-top: 30px;
+    }
+
+    .online-tile,
+    .online-title2 {
         font-size: 29px;
     }
 
-    .online-p{
+    .online-p {
         margin-top: 8px;
         font-size: 12px;
     }
-    .online-card-para{
+
+    .online-card-para {
         font-size: 15px;
     }
-    .online-card-container{
-           flex-direction: column;
+
+    .online-card-container {
+        flex-direction: column;
     }
-    
+
     /* play section */
-    .play-section{
+    .play-section {
         flex-direction: column;
         margin-top: 20px;
     }
-    .play-pic{
+
+    .play-pic {
         width: 88%;
-        
-    }
-    .play-pic-s{
-        width: 42%;
-    }
-    .play-img-small{
-        top:60%;
-        left:-3%;
+
     }
 
-     .play-title, .play-2 {
+    .play-pic-s {
+        width: 42%;
+    }
+
+    .play-img-small {
+        top: 60%;
+        left: -3%;
+    }
+
+    .play-title,
+    .play-2 {
         font-size: 30px;
     }
 
-    .play-content{
+    .play-content {
 
         text-align: center;
         padding-right: 0px;
     }
-    .play-para{
-       font-size: 15px;
-       text-align: center;
+
+    .play-para {
+        font-size: 15px;
+        text-align: center;
     }
-    .play-content{
+
+    .play-content {
         text-align: center;
     }
 
@@ -146,28 +178,31 @@
     .circle-section {
         background: none;
     }
+
     .circles {
 
         font-size: 12px;
         width: 150px;
         gap: 3px;
-    } 
+    }
+
     /* footer  */
 
     .footer-all-icon {
         display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
+        grid-template-columns: repeat(3, 1fr);
+
     }
 
-    .footer-2nd{
+    .footer-2nd {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
+
     .footer-p {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         margin-bottom: 20px;
 
@@ -177,123 +212,142 @@
         font-size: 35px;
     }
 
-    .footer-logo{
+    .footer-logo {
         margin-left: 90px;
-    } 
+    }
 }
 
 
 /* for tab */
-@media screen and (min-width:426px) and (max-width:768px ) {
-    .nav-main{
+@media screen and (min-width:426px) and (max-width:768px) {
+    .nav-main {
         flex-direction: column;
     }
-    .nav-list ,.nav-logo{
+
+    .nav-list,
+    .nav-logo {
         width: 100%;
-        justify-content:center ;
+        justify-content: center;
     }
+
     .nav-container {
         background: #FFF;
         box-shadow: none;
     }
+
     /* banner */
-    .banner-btn{
+    .banner-btn {
         margin-bottom: 20px;
     }
+
     .sing-btn {
         padding: 19px 37px;
     }
-    
+
     .go-btn {
         padding: 19px 37px;
     }
 
-    .banner-div-main{
+    .banner-div-main {
         flex-direction: column-reverse;
-      }
-      .banner-main{
+    }
+
+    .banner-main {
         background-image: none;
-        
-      }
-      .banner-right{
+
+    }
+
+    .banner-right {
         width: 100%;
         margin-top: 20px;
-       }
-       .banner-right-pic{
-        width: 100%;
-       }
+    }
 
-       .banner-left{
+    .banner-right-pic {
+        width: 100%;
+    }
+
+    .banner-left {
         width: 100%;
         background-image: url("./images/Group\ 14.png");
         background-size: cover;
         margin-top: 20px;
         padding-left: 20px;
 
-       }
+    }
 
-       /* we  */
+    /* we  */
 
-       .we-gamer-main{
+    .we-gamer-main {
         margin-top: 30px;
-       }
-       .we-gamer-main{
+    }
+
+    .we-gamer-main {
         background: none;
         width: 730px;
     }
 
     /* online game section */
-    .online-card-container{
+    .online-card-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin-left: 20px;
- }
- .online-tile{
-    padding-bottom: 15px;
-    margin-top: 50px;
- }
- /* play section */
- .play-section{
-    margin-top: 50px;
-    flex-direction: column;
-}
-.play-content{
+    }
 
-    text-align: center;
-   padding-left: 160px;
-}
-.play-img{
+    .online-tile {
+        padding-bottom: 15px;
+        margin-top: 50px;
+    }
 
-    justify-content: center;
-}
+    /* play section */
+    .play-section {
+        margin-top: 50px;
+        flex-direction: column;
+    }
 
-.play-para {
-    text-align: center;
-    font-size: 18px;
-}
- .play-content{
-     margin-bottom:40px;
- }
- .circle-section {
-    background: none;
-}
+    .play-content {
 
-/* footer section */
-.footer-2nd {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-.footer-logo{
-    margin-left: 0px;
-} 
-.footer-p {
-    gap:20px;
-}
-.f-twitter {
-    font-size: 40px;
-}
-.footer-section {
-    margin-top: 60px;
-}
+        text-align: center;
+        padding-left: 160px;
+    }
+
+    .play-img {
+
+        justify-content: center;
+    }
+
+    .play-para {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .play-content {
+        margin-bottom: 40px;
+    }
+
+    .circle-section {
+        background: none;
+    }
+
+    /* footer section */
+    .footer-2nd {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo {
+        margin-left: 0px;
+    }
+
+    .footer-p {
+        gap: 20px;
+    }
+
+    .f-twitter {
+        font-size: 40px;
+    }
+
+    .footer-section {
+        margin-top: 60px;
+    }
 }
